@@ -1,7 +1,7 @@
 import { HERO_CONTENT } from "../constants";
-import Profile_Pic from "../assets/Mypic.jpeg";
+import Profile_Pic from "../assets/kevinRushProfile.png";
 const Hero = () => {
-    return(
+    return (
         <div className="border-b border-neutral-900 pb-4 lg:mb-35">
             <div className="flex flex-wrap">
                 <div className="w-full lg:w-1/2">
@@ -13,11 +13,6 @@ const Hero = () => {
                             Software Developer
                         </span>
                         <p className="my-2 max-w-xl py-6 font-light tracking-tight">{HERO_CONTENT}</p>
-                    </div>
-                </div>
-                <div className="w-full lg:w-1/6 lg:p-10">
-                    <div className="flex justify-center">
-                        <img src={Profile_Pic} alt="Ananya" />
                     </div>
                 </div>
             </div>
