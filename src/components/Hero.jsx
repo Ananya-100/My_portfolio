@@ -15,9 +15,9 @@ const Hero = () => {
                         <p className="my-2 max-w-xl py-6  font-light tracking-tight">{HERO_CONTENT}</p>
                     </div>
                 </div>
-                <div className="w-full lg:w-1/2 lg:p-8">
+                <div className="w-full lg:w-1/2 lg:p-3">
                     <div className="flex justify-center lg:justify-end">
-                        <img className="w-1/2 rounded-full sm:w-1/2 lg:mr-40" src={Profile_Pic} alt="kevin" />
+                        <img className="w-1/2 rounded-full sm:w-1/2 mr-20 lg:mr-40" src={Profile_Pic} alt="kevin" />
                 </div>
                 </div>
             </div>
