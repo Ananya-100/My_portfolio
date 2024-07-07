@@ -3,6 +3,7 @@ import { BsFiletypeSql } from "react-icons/bs";
 import { FaJava } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import { SiSpringboot } from "react-icons/si";
+import { SiPandas } from "react-icons/si"
 
 const Technology = () => {
     return (
@@ -23,6 +24,9 @@ const Technology = () => {
                 </div>
                 <div className="rounded-2xl border-4 border-neutral-800 p-4">
                     <SiSpringboot className="text-6xl text-green-600" />
+                </div>
+                <div className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiPandas className="text-6xl text-blue-600" />
                 </div>
 
             </div>
