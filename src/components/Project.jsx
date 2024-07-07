@@ -6,7 +6,7 @@ import { SiSpringboot } from "react-icons/si";
 
 const Project = () => {
     return (
-        <div>Project</div>
+        <div className="border-b border-neutral-900 pb-4">Project</div>
     );
 };
 export default Project;
