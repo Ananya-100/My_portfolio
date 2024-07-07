@@ -1,4 +1,5 @@
 import About_Pic from "../assets/aboutme.png";
+import { ABOUT_TEXT } from "../constants";
 
 const About = () => {
     return (
@@ -11,8 +12,14 @@ const About = () => {
             <div className="flex flex-wrap">
                 <div className="w-full lg:w-1/2 lg:p-8">
                     <div className="flex items-center justify-center">
-                        <img className="rounded-2xl" src={About_Pic} alt="about" />
+                        <img className="rounded-2xl w-4/6 " src={About_Pic} alt="about" />
                     </div>
+                </div>
+                <div className="w-full lg:w-2/5">
+                    <div className="flex justify-center lg:justify-start">
+                        <p className="my-2 max-w-xl py-12">{ABOUT_TEXT}</p>
+                    </div>
+
                 </div>
             </div>
         </div>
