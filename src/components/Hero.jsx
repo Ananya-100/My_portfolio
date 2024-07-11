@@ -18,8 +18,11 @@ const Hero = () => {
                 <div className="w-full lg:w-1/2 lg:p-3">
                     <div className="flex justify-center lg:justify-end">
                         <img className="w-1/2 rounded-full sm:w-1/2 mr-20 lg:mr-40" src={Profile_Pic} alt="kevin" />
+                    </div>
                 </div>
-                </div>
+                
+                    <a href="">Resume</a>
+                
             </div>
         </div>
     );
