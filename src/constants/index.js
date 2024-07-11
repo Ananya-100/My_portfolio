@@ -3,7 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = ``;
+export const HERO_CONTENT = `Digital Alchemist transforming raw data into golden insights`;
 
 export const ABOUT_TEXT = `Hello! I am a final-year B.Tech student with a passion for technology and innovation. Proficient in Java, Python, and SQL, I thrive on building robust and scalable software solutions. My journey in web development has allowed me to create dynamic and interactive applications using HTML, CSS, JavaScript, and ReactJS.
 
