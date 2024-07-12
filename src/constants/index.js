@@ -10,7 +10,12 @@ export const ABOUT_TEXT = `Hello! I am a final-year B.Tech student with a passio
 Beyond web development, I have delved into the world of machine learning, applying my skills to develop projects that solve real-world problems. My diverse skill set and eagerness to learn new technologies drive me to tackle challenging projects and continuously improve my expertise.`;
 
 export const educationData = [
-  
+  {
+    year: "2021-PRESENT",
+    title: "BTech in Computer Science",
+    institution: "Academy of Technology",
+    description: " CGPA: 8.69/10.0",
+  },
   {
     year: "2020-2021",
     title: "ISC(12th)",
