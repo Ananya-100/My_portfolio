@@ -12,32 +12,32 @@ Beyond web development, I have delved into the world of machine learning, applyi
 
 export const PROJECTS = [
   {
-    title: "Weather-App using [ython",
+    title: "Weather-App",
     image: project1,
     description:
       "A fully functional weather app using python",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["Python","API"],
   },
   {
-    title: "Task Management App",
+    title: "Smart Attendence System",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A real time face recognisation system use to monitor the attendence of the students",
+    technologies: ["Python", "Opencv", "Tkinter","Pillow","MySQL"],
   },
   {
-    title: "Portfolio Website",
+    title: "Stock price prediction",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "",
+    technologies: ["Python","Pandas","Numpy", "Matplotlib","Scikit learn","keras","streamlit"],
   },
   {
-    title: "Blogging Platform",
+    title: "Travel Wesite",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A responsive travel website using ReactJS",
+    technologies: ["HTML", "CSS", "ReactJs"],
   },
 ];
 
