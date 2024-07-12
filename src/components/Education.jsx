@@ -4,7 +4,7 @@ const Education = () => {
     return (
 
         <div className="border-b border-neutral-700 pb-8 ">
-            <h2 className="my-20 text-center text-5xl">Education</h2>
+            <h2 className="my-20 text-center text-4xl">Education</h2>
             <div className="flex justify-center">
             <div className="relative border-l border-fuchsia-200  ">
                 {educationData.map((item, index) => (
