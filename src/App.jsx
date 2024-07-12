@@ -4,7 +4,6 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Technology from "./components/Technology";
 import Education from "./components/Education";
-
 import Project from "./components/Project";
 
 const App = () => {
@@ -23,7 +22,7 @@ const App = () => {
         <About />
         <Technology />
         <Education/>
-        <Project/>
+        <Project />
        
       </div> 
     </div>
