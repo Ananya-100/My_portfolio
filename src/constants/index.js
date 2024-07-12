@@ -32,7 +32,7 @@ export const educationData = [
 
 export const PROJECTS = [
   {
-    title: "Weather-App",
+    title: "",
     image: project1,
     description:
       "A fully functional weather app using python",
