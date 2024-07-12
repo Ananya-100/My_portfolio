@@ -11,22 +11,22 @@ Beyond web development, I have delved into the world of machine learning, applyi
 
 export const ACADEMICS = [
   {
-    year: '2021-PRESENT',
-    title: 'BTech in Computer Science',
-    institution: 'Academy of Technology',
-    description: ' CGPA: 8.69/10.0',
+    year: "2021-PRESENT",
+    title: "BTech in Computer Science",
+    institution: "Academy of Technology",
+    description: " CGPA: 8.69/10.0",
   },
   {
     year: "2020-2021",
     title: "ISC(12th)",
     institution: "Marias Day School",
-    description: 'Top 10% of the class, 97.25% .',
+    description: "Top 10% of the class, 97.25% ."
   },
   {
     year: "2018-2019",
     title: "ICSE(10th)",
     institution: "Marias Day School",
-    description: 'Top 10% of the class, 91% .',
+    description: "Top 10% of the class, 91% ."
   },
 ]
 
