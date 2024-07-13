@@ -14,9 +14,15 @@ const Navbar = () =>{
                 <a href="https://www.linkedin.com/in/ananya-sadhukhan-b65563255/" target="_blank" rel="noopener noreferrer">
                     <FaLinkedin /> 
                 </a>
+                <a href="https://www.linkedin.com/in/ananya-sadhukhan-b65563255/" target="_blank" rel="noopener noreferrer">
+                    <FaGithub />
+                </a>
+                <a href="https://www.linkedin.com/in/ananya-sadhukhan-b65563255/" target="_blank" rel="noopener noreferrer">
+                    <FaInstagram />
+                </a>
                 
-                <FaGithub />
-                <FaInstagram />
+                
+                
 
             </div>
         </nav>
