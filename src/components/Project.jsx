@@ -8,7 +8,7 @@ const Project = () => {
             <div>
                 {PROJECTS.map(project,inedex) = (
                     <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
-                        <div></div>
+                        <div className="w-full lg:w-1/4"></div>
                     </div>
                 )
                 
