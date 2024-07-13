@@ -16,6 +16,10 @@ const Projects = () => {
                             className="mb-6 rounded"
                             />
                         </div>
+                        <div className="w-full max-w-xl lg:3/4">
+                            <h6 className="mb-2 font-semibold">{project.title}</h6>
+                            
+                        </div>
 
                     </div>
                 ))
