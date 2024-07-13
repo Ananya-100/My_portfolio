@@ -49,7 +49,7 @@ export const PROJECTS = [
     title: "Stock price prediction",
     image: project3,
     description:
-      "",
+      "A ml-based project use to predict the stock price based on opening and closing value",
     technologies: ["Python","Pandas","Numpy", "Matplotlib","Scikit learn","keras","streamlit"],
   },
   {
