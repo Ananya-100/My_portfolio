@@ -32,25 +32,18 @@ export const educationData = [
 
 export const PROJECTS = [
   {
-    title: "Weather-App",
-    image: project1,
+    title: "Stock price prediction",
+    image: project3,
     description:
-      "A fully functional weather app using python",
-    technologies: ["Python","API"],
+      "A ml-based project use to predict the stock price based on opening and closing value",
+    technologies: ["Python", "Pandas", "Numpy", "Matplotlib", "Scikit learn", "keras", "streamlit"],
   },
   {
     title: "Smart Attendence System",
     image: project2,
     description:
       "A real time face recognisation system use to monitor the attendence of the students",
-    technologies: ["Python", "Opencv", "Tkinter","Pillow","MySQL"],
-  },
-  {
-    title: "Stock price prediction",
-    image: project3,
-    description:
-      "A ml-based project use to predict the stock price based on opening and closing value",
-    technologies: ["Python","Pandas","Numpy", "Matplotlib","Scikit learn","keras","streamlit"],
+    technologies: ["Python", "Opencv", "Tkinter", "Pillow", "MySQL"],
   },
   {
     title: "Travel Wesite",
@@ -59,6 +52,14 @@ export const PROJECTS = [
       "A responsive travel website using ReactJS",
     technologies: ["HTML", "CSS", "ReactJs"],
   },
+  {
+    title: "Weather-App",
+    image: project1,
+    description:
+      "A fully functional weather app using python",
+    technologies: ["Python","API"],
+  },
+  
 ];
 
 export const CONTACT = {
