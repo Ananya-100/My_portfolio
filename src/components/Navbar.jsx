@@ -14,10 +14,10 @@ const Navbar = () =>{
                 <a href="https://www.linkedin.com/in/ananya-sadhukhan-b65563255/" target="_blank" rel="noopener noreferrer">
                     <FaLinkedin /> 
                 </a>
-                <a href="https://www.linkedin.com/in/ananya-sadhukhan-b65563255/" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/Ananya-100" target="_blank" rel="noopener noreferrer">
                     <FaGithub />
                 </a>
-                <a href="https://www.linkedin.com/in/ananya-sadhukhan-b65563255/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/c.a.s.s.i.o.p.e.i.a_18/" target="_blank" rel="noopener noreferrer">
                     <FaInstagram />
                 </a>
                 
