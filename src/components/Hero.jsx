@@ -24,7 +24,7 @@ const Hero = () => {
                         className="pb-16  text-4xl font-thin tracking-tight lg:mt-15
                         lg:text-7xl">Ananya Sadhukhan</motion.h1>
                         <motion.span 
-                            variants={container(0)}
+                            variants={container(0.5)}
                             initial="hidden"
                             animate="visible"
                         className="bg-gradient-to-r from-pink-300 via-slate-500 
