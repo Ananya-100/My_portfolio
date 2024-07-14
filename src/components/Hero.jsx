@@ -52,7 +52,11 @@ const Hero = () => {
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-4">
                     <div className="flex justify-center lg:justify-end">
-                        <motion.img className="w-1/2 rounded-full sm:w-1/2 sm:mr-10  lg:mr-30" src={Profile_Pic} alt="kevin" />
+                        <motion.img 
+                        initial={{x:100, opacity:0}}
+                        animate={{x:0, opacity:1}}
+                        transition={{ duration:1, delay:1.2}}
+                        className="w-1/2 rounded-full sm:w-1/2 sm:mr-10  lg:mr-30" src={Profile_Pic} alt="kevin" />
                     </div>
                 </div>
             
