@@ -4,6 +4,20 @@ import { FaJava } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import { SiSpringboot } from "react-icons/si";
 import { SiPandas } from "react-icons/si"
+import { animate, delay, motion } from "framer-motion";
+
+const iconVariants = (duration) =>({
+    initial: {y: -10},
+    animate: {
+        y:[10, -10],
+        transition:{
+            duration:duration,
+            ease:"linear",
+            repeat: Infinity,
+            repeatType:"reverse"
+        },
+    },
+});
 
 const Technology = () => {
     return (
