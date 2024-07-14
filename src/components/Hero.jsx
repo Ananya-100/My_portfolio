@@ -3,7 +3,7 @@ import Profile_Pic from "../assets/Mypic.png";
 import resume from "../constants/Ananya's-Resume.pdf";
 import { delay, motion } from "framer-motion";
 
-const container = (delay) = ({
+const container = (delay) => ({
     hidden : {x:-100, opacity :0},
     visible :{
         x:0,
