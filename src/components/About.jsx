@@ -19,12 +19,16 @@ const About = () => {
                         <img className="rounded-2xl w-4/6 " src={About_Pic} alt="about" />
                     </div>
                 </motion.div>
-                <div className="w-full lg:w-2/5">
+                <motion.div
+                    whileInView={{ opacity: 1, x: 0 }}
+                    initial={{ opacity: 0, x: 100 }}
+                    transition={{ duration: 0.5 }}
+                className="w-full lg:w-2/5">
                     <div className="flex justify-center lg:justify-start">
                         <p className="my-2 max-w-xl py-12">{ABOUT_TEXT}</p>
                     </div>
 
-                </div>
+                </motion.div>
             </div>
         </div>
         
