@@ -1,6 +1,6 @@
 import About_Pic from "../assets/aboutme.png";
 import { ABOUT_TEXT } from "../constants";
-
+import { delay, motion } from "framer-motion";
 const About = () => {
     return (
         
