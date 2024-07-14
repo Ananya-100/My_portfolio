@@ -45,7 +45,7 @@ const Hero = () => {
                 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 
                 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center
                  mb-8 ">
-                            <a href={resume} download='resume'>Download</a>
+                            <a href={resume} download='resume'>Resume</a>
                         </motion.button>
                         
                     </div>
