@@ -23,13 +23,22 @@ const Hero = () => {
                         animate = "visible"
                         className="pb-16  text-4xl font-thin tracking-tight lg:mt-15
                         lg:text-7xl">Ananya Sadhukhan</motion.h1>
-                        <span className="bg-gradient-to-r from-pink-300 via-slate-500 
+                        <motion.span 
+                            variants={container(0)}
+                            initial="hidden"
+                            animate="visible"
+                        className="bg-gradient-to-r from-pink-300 via-slate-500 
                         to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
                             Software Developer
-                        </span>
-                        <p className="my-2 max-w-xl py-6  font-light tracking-tight">{HERO_CONTENT}</p>
+                        </motion.span>
+                        <motion.p 
+                            variants={container(0)}
+                            initial="hidden"
+                            animate="visible"
+                        className="my-2 max-w-xl py-6  font-light tracking-tight">{HERO_CONTENT}</motion.p>
                         
-                        <button className="sm:mb-20 text-white bg-gradient-to-r from-purple-500 to-pink-500 
+                        <button 
+                        className="sm:mb-20 text-white bg-gradient-to-r from-purple-500 to-pink-500 
                 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 
                 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center
                  mb-8 ">
