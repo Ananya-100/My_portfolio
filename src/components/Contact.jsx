@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <div className="flex justify-center items-center min-h-screen">
             <div className="w-full max-w-lg p-8 bg-white rounded-lg shadow-md">
-                <h2 className="text-3xl font-bold mb-6 text-center">Contact Me</h2>
+                <h2 className="text-3xl font-bold mb-6 text-center text-blue-800">Contact Me</h2>
                 <form action="https://api.web3forms.com/submit" method="POST" className="space-y-4">
                     <input type="hidden" name="access_key" value="faee4931-4ea1-4fb3-bab1-dbbd93c4b6de"></input>
                     <div>
@@ -29,6 +29,7 @@ const Contact = () => {
                             type="email"
                             id="email"
                             name="email"
+                            placeholder='Your mail'
                             className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                             required
                         />
@@ -41,6 +42,7 @@ const Contact = () => {
                             id="message"
                             name="message"
                             rows="4"
+                            placeholder='Your message'
                             className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                             required
                         ></textarea>
