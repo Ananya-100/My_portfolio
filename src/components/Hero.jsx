@@ -16,7 +16,7 @@ const Hero = () => {
         <div className="border-b border-neutral-900 pb-6 lg:mb-35">
             <div className="flex flex-wrap">
                 <div className="w-full lg:w-1/2">
-                    <div className="flex flex-col items-center lg:items-start">
+                    <div className="flex flex-col items-center lg:items-start lg:pl-12" >
                         <motion.h1 
                         variants={container(0)}
                         initial = "hidden"
@@ -35,7 +35,7 @@ const Hero = () => {
                             variants={container(1.0)}
                             initial="hidden"
                             animate="visible"
-                        className="my-4 max-w-7xl py-6 lg:px-8  font-light tracking-tight">{HERO_CONTENT}</motion.p>
+                        className="my-4 max-w-7xl py-6 lg:pl-8  font-light tracking-tight">{HERO_CONTENT}</motion.p>
                         
                         <div className="lg:px-8">
                         <motion.button 
@@ -53,7 +53,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-4">
-                    <div className="flex justify-center lg:justify-end">
+                    <div className="flex justify-center">
                         <motion.img 
                         initial={{x:100, opacity:0}}
                         animate={{x:0, opacity:1}}
